@@ -30,4 +30,10 @@ let team = [
 
     }
 ]
-console.log(team);
+
+for (const key in team) {
+
+    const element = team[key];
+
+    console.log(team[key]);
+}
